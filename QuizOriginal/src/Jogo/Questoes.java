@@ -7,20 +7,10 @@ package Jogo;
 import javax.swing.JOptionPane;
 /**
  *
- * @author internet
+ * @author Luis Gustavo
  */
-public class Questoes/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Jogo;
-import javax.swing.JOptionPane;
-/**
- *
- * @author internet
- */
-public class Quest�es {
+
+public class Questoes {
     
     String nome;
     int pergunta1;
@@ -175,7 +165,7 @@ public class Quest�es {
     
     public void Questao6(){
         pergunta6 = Integer.parseInt(JOptionPane.showInputDialog("Qual foi o país sede da copa do mundo de 1998?"
-                + "\n" + "1- �?frica do Sul"
+                + "\n" + "1- África do Sul"
                 + "\n" + "2- Itália"
                 + "\n" + "3- Brasil"
                 + "\n" + "4- França"
@@ -314,6 +304,5 @@ public class Quest�es {
 
     private int nome(String showInputDialog) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-        
+    }       
 }

@@ -5,11 +5,10 @@
  */
 package Quiz;
 
-import Jogo.Questões;
-//import Jogo.Banco_de_Dados;
+import Jogo.Questoes;
 /**
  *
- * @author internet
+ * @author Luis Gustavo
  */
 public class Quiz {
 
@@ -20,7 +19,7 @@ public class Quiz {
         // TODO code application logic here
         //Perguntas
         
-                Questões qts = new Questões();
+                Questoes qts = new Questoes();
                 
                 qts.usuario();
                 
